@@ -2,7 +2,7 @@ const INFO = {
 	main: {
 		title: "TEAS by Rafael",
 		name: "Rafael Reyes",
-		email: "rreyes10@sdgecontractor.com",
+		email: "CTPrograms@sdge.com",
 		logo: "../logo.png",
 	},
 
