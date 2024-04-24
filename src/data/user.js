@@ -7,12 +7,12 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
+		twitter: "https://twitter.com/SDGE",
+		facebook: "http://facebook.com/sandiegogasandelectric",
 		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		linkedin: "https://www.linkedin.com/company/san-diego-gas-&-electric",
+		instagram: "https://www.instagram.com/sdge/",
 		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
 	},
 
 	homepage: {

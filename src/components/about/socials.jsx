@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
 	faTwitter,
-	faGithub,
+	faFacebookF,
 	faLinkedin,
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
@@ -28,14 +28,14 @@ const Socials = () => {
 			</div>
 
 			<div className="social">
-				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
+				<a href={INFO.socials.facebook} target="_blank" rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faGithub}
+							icon={faFacebookF}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on GitHub</div>
+					<div className="social-text">Follow on Facebook</div>
 				</a>
 			</div>
 
