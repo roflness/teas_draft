@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "TEAS by Rafael",
+		name: "Rafael Reyes",
+		email: "rreyes10@sdgecontractor.com",
 		logo: "../logo.png",
 	},
 
@@ -16,9 +16,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Transportation Electrification Advisory Services",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Transportation Electrification (TE) Advisory Services is here to support customers early in the electrification planning phase. Our expert representatives are standing by to provide topical education, awareness, and support to help you transition to electric vehicles (EVs) and install EV charging.",
 	},
 
 	about: {
