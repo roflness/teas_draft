@@ -23,24 +23,24 @@ function InterestForm() {
       <label className="form-text-input">Name of Business/Organization
       <input 
         type="text" 
-        name="username" 
-        value={inputs.username || ""} 
+        name="orgname" 
+        value={inputs.orgname || ""} 
         onChange={handleChange}
       />
       </label>
       <label className="form-text-input">First Name
         <input 
           type="text" 
-          name="age" 
-          value={inputs.age || ""} 
+          name="firstname" 
+          value={inputs.firstname || ""} 
           onChange={handleChange}
         />
       </label>
       <label className="form-text-input">Last Name
         <input 
           type="text" 
-          name="age" 
-          value={inputs.age || ""} 
+          name="lastname" 
+          value={inputs.lastname || ""} 
           onChange={handleChange}
         />
       </label>
