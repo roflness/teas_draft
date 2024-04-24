@@ -38,7 +38,7 @@ const INFO = {
 			title: "Pre-Energization",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "https://www.sdge.com/sites/default/files/styles/copy_with_icon/public/ElectrificationProjects.png",
 			linkText: "Learn More",
 			link: "https://github.com",
 		},
@@ -47,7 +47,7 @@ const INFO = {
 			title: "Post-Energization",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: "https://www.sdge.com/sites/default/files/styles/copy_with_icon/public/PYD2.png",
 			linkText: "Learn More",
 			link: "https://github.com",
 		},
@@ -56,7 +56,7 @@ const INFO = {
 			title: "Fleet Electrification Planning",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo: "https://www.sdge.com/sites/default/files/styles/copy_with_icon/public/ProgramOverview1_3.png",
 			linkText: "Learn More",
 			link: "https://github.com",
 		},
@@ -65,7 +65,7 @@ const INFO = {
 			title: "Emerging Technology",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "https://www.sdge.com/sites/default/files/styles/copy_with_icon/public/FleetResources_Icon_0.png",
 			linkText: "Learn More",
 			link: "https://github.com",
 		},
