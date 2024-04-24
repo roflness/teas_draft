@@ -39,7 +39,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Transportation Electrification Advisory Services
+							TE Advisory Services
 						</div>
 
 						<div className="subtitle projects-subtitle">
