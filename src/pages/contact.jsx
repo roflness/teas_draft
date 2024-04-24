@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import InterestForm from "../components/common/interestform";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -48,6 +49,9 @@ const Contact = () => {
 						electrification project, please sign up today and we will reach out to 
 						how we can help your business electrify.
 						</div>
+					</div>
+					<div>
+						<InterestForm />
 					</div>
 
 					<div className="socials-container">
