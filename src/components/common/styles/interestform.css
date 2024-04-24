@@ -1,0 +1,29 @@
+.form-text-input {
+	border-radius: 50%;
+	display: block;
+	text-align: left;
+	/* margin-left: 5rem; */
+	/* padding: 0.3rem; */
+	color: var(--secondary-color);
+	font-size: 14px;
+	line-height: 28px;
+}
+
+
+.form-submit {
+	background-color: #001689;
+	border: none;
+	color: #fff;
+	padding: 15px 30px;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-border-radius: 10px;
+}
+
+.form-column {
+	margin-left:5rem;
+	padding-top: 10px;
+	padding-bottom:10px;
+}

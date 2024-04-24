@@ -51,7 +51,9 @@ const Contact = () => {
 						</div>
 					</div>
 					<div>
+						<hr></hr>
 						<InterestForm />
+						<hr></hr>
 					</div>
 
 					<div className="socials-container">
