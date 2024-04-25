@@ -2,15 +2,12 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "30 September 2020",
+		title: "Power Your Drive for Fleets",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Power Your Drive for Fleets helps fleet owners and operators reduce operating costs, eliminate emissions, and simplify vehicle maintenance by transitioning to electric vehicles. The program connects fleets with resources, fleet-friendly charging rates, and financial incentives to easily and cost-effectively design and install the charging infrastructure needed to power medium- and heavy-duty electric fleets.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+
 		],
 		style: `
 				.article-content {
@@ -27,9 +24,11 @@ function article_1() {
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
+					<div className="homepage-article-title">Electrification Timeline</div>
+
+					<div className="paragraph">SDG&E works with fleets from the initial infrastructure planning stage through to design, construction, and ongoing site maintenance.</div>
 					<img
-						src="https://picsum.photos/200/300"
+						src="https://www.sdge.com/sites/default/files/inline-images/ElectrificationTimeline_2.jpg"
 						alt="random"
 						className="randImage"
 					/>

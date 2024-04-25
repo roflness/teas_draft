@@ -53,7 +53,6 @@ const Contact = () => {
 					<div>
 						<hr></hr>
 						<InterestForm />
-						<hr></hr>
 					</div>
 
 					<div className="socials-container">

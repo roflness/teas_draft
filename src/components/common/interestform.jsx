@@ -19,80 +19,91 @@ function InterestForm() {
   }
 
   return (
+    <div>
+      <form className="form-2" action="">
+        <input type="text" id="fullName" name="fullName" placeholder=" "/>
+        <label for="fullName">Full Name</label>
+        <input type="email" id="email" name="email" placeholder=" "/>
+        <label for="email">Email</label>
+        <input type="password" id="password" name="password" placeholder=" "/>
+        <label for="password">Password</label>
+        <button type="button">Submit</button>
+      </form>
+
     <form className="form-column" onSubmit={handleSubmit}>
       <label className="form-text-input">Name of Business/Organization
-      <input 
+      <input className="input"
         type="text" 
         name="orgname" 
         value={inputs.orgname || ""} 
         onChange={handleChange}
       />
-      </label>
+      </label><br></br>
       <label className="form-text-input">First Name
-        <input 
+        <input className="input"
           type="text" 
           name="firstname" 
           value={inputs.firstname || ""} 
           onChange={handleChange}
         />
-      </label>
+      </label><br></br>
       <label className="form-text-input">Last Name
-        <input 
+        <input className="input"
           type="text" 
           name="lastname" 
           value={inputs.lastname || ""} 
           onChange={handleChange}
         />
-      </label>
+      </label><br></br>
       <label className="form-text-input">Phone Number (Business)
-        <input 
+        <input className="input"
           type="tel" 
           name="businessPhone" 
           value={inputs.businessPhone || ""} 
           onChange={handleChange}
         />
-      </label>
+      </label><br></br>
       <label className="form-text-input">Phone Number (Cell)
-        <input 
+        <input className="input"
           type="tel" 
           name="cellPhone" 
           value={inputs.cellPhone || ""} 
           onChange={handleChange}
         />
       </label>
-      <br></br>
+      <br></br><br></br>
       <label className="form-text-input">Address
-        <input 
+        <input className="input"
           type="text" 
           name="address" 
           value={inputs.address || ""} 
           onChange={handleChange}
         />
-      </label>
+      </label><br></br>
       <label className="form-text-input">City
-        <input 
+        <input className="input"
           type="text" 
           name="city" 
           value={inputs.city || ""} 
           onChange={handleChange}
         />
-      </label>
+      </label><br></br>
       <label className="form-text-input">State
-        <input 
+        <input className="input"
           type="text" 
           name="state" 
           value={inputs.state || ""} 
           onChange={handleChange}
         />
-      </label>
+      </label><br></br>
       <label className="form-text-input">Zip
-        <input 
+        <input className="input"
           type="zipcode" 
           name="zipcode" 
           value={inputs.zipcode || ""} 
           onChange={handleChange}
         />
-      </label>
+      </label><br></br>
       <label className="form-text-input">Is your Business Address the same as your project site address?<br></br>
         <input 
           type="radio" 
@@ -135,8 +146,8 @@ function InterestForm() {
         <input type="checkbox" id="1vehicle4" name="1vehicle4" value="Business"/>
         <label for="1vehicle4"> Emerging Technology</label> <br></br>
       </label>
-      <label className="form-text-input">Are you facing any challenges in your current electrification planning? If yes, please explan. <br></br>
-        <textarea name="message" rows="4" cols="60">
+      <label className="form-text-input">Are you facing any challenges in your current electrification planning? If yes, please explain. <br></br>
+        <textarea className="input" name="message" rows="4" cols="60">
           Enter your answer
         </textarea>
       </label>
@@ -144,6 +155,7 @@ function InterestForm() {
       <br></br>
       <input className= "form-submit" type="submit" />
     </form>
+    </div>
   )
 }
 
